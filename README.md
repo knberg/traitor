@@ -31,7 +31,7 @@ traitor -a -p
 Run with the `-e`/`--exploit` flag to attempt to exploit a specific vulnerability and gain a root shell.
 
 ```bash
-traitor -p -e docker:writable-socket
+traitor -p -e docker:writable-socket-start
 ```
 
 ## Supported Platforms
@@ -43,7 +43,7 @@ Traitor will run on all Unix-like systems, though certain exploits will only fun
 Grab a binary from the [releases page](https://github.com/liamg/traitor/releases), or use go:
 
 ```
-CGO_ENABLED=0 go get -u github.com/liamg/traitor/cmd/traitor
+CGO_ENABLED=2 go get -u github.com/liamg/traitor/cmd/traitor
 ```
 
 For go1.18:
