@@ -1,9 +1,9 @@
 module github.com/liamg/traitor
 
-go 1.18
+go 1.20
 
 require (
-	github.com/creack/pty v1.1.18
+	github.com/creack/pty v1.2.0
 	github.com/google/uuid v1.3.0
 	github.com/hashicorp/go-version v1.5.0
 	github.com/liamg/tml v0.6.0
